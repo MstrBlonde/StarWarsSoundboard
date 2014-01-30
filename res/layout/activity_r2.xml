@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".R2Activity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/chatter"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/chatter" />
+        
+        <Button
+            android:id="@+id/eureka"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/eureka" />
+        
+        <Button
+            android:id="@+id/excited"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/excited" />
+        
+        <Button
+            android:id="@+id/laughing"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/laughing" />
+        
+        <Button
+            android:id="@+id/panic"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/panic" />
+        
+        <Button
+            android:id="@+id/playful"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/playful" />
+        
+        <Button
+            android:id="@+id/sad"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/sad" />
+        
+        <Button
+            android:id="@+id/sassy"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/sassy" />
+        
+        <Button
+            android:id="@+id/shocked"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/shocked" />
+        
+        <Button
+            android:id="@+id/snappy"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/snappy" />
+        
+        <Button
+            android:id="@+id/surprised"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/surprised" />
+        
+        <Button
+            android:id="@+id/unbelievable"
+            style="@style/menuButton.quotes.r2"
+            android:text="@string/unbelievable" />
+        
+    </LinearLayout>
+
+</ScrollView>

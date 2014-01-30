@@ -1,0 +1,64 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="menuButton" parent="android:Widget.Holo.Button">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="menuButton.quotes" parent="@style/menuButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:onClick">playClip</item>
+    </style>
+    <style name="menuButton.quotes.luke" parent="@style/menuButton.quotes">
+        <item name="android:drawableLeft">@drawable/luke</item>
+    </style>
+    <style name="menuButton.quotes.han" parent="@style/menuButton.quotes">
+        <item name="android:drawableLeft">@drawable/han</item>
+    </style>
+    <style name="menuButton.quotes.leia" parent="@style/menuButton.quotes">
+        <item name="android:drawableLeft">@drawable/leia</item>
+    </style>
+    <style name="menuButton.quotes.ben" parent="@style/menuButton.quotes">
+        <item name="android:drawableLeft">@drawable/ben</item>
+    </style>
+    <style name="menuButton.quotes.vader" parent="@style/menuButton.quotes">
+        <item name="android:drawableLeft">@drawable/vader</item>
+    </style>
+    <style name="menuButton.quotes.r2" parent="@style/menuButton.quotes">
+        <item name="android:drawableLeft">@drawable/r2</item>
+    </style>
+    <style name="menuButton.quotes.c3po" parent="@style/menuButton.quotes">
+        <item name="android:drawableLeft">@drawable/c3p0</item>
+    </style>
+    <style name="menuButton.quotes.yoda" parent="@style/menuButton.quotes">
+        <item name="android:drawableLeft">@drawable/yoda</item>
+    </style>
+    <style name="menuButton.quotes.chewy" parent="@style/menuButton.quotes">
+        <item name="android:drawableLeft">@drawable/chewy</item>
+    </style>
+    <style name="menuButton.quotes.emperor" parent="@style/menuButton.quotes">
+        <item name="android:drawableLeft">@drawable/emperor</item>
+    </style>
+</resources>

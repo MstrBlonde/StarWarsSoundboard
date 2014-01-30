@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- UI -->
+    <string name="app_name">Star Wars Soundboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="soundboard">SOUNDBOARD</string>
+    <string name="star_wars_logo">Star Wars Logo</string>
+    <string name="begin">Begin!</string>
+
+    <!-- Menu -->
+    <string name="title_activity_menu">Choose a Character</string>
+    <string name="luke">Luke Skywalker</string>
+    <string name="han">Han Solo</string>
+    <string name="leia">Princess Leia</string>
+    <string name="ben">Obi-Wan Kenobi</string>
+    <string name="vader">Darth Vader</string>
+    <string name="r2">R2-D2</string>
+    <string name="c3po">C-3PO</string>
+    <string name="yoda">Yoda</string>
+    <string name="chewy">Chewbacca</string>
+    <string name="emperor">The Emperor</string>
+
+    <!-- Luke -->
+    <string name="toschi">Toschi Station</string>
+    <string name="afraid">I\'m not afraid</string>
+    <string name="becomejedi">Jedi like my father</string>
+    <string name="callmeluke">Call me Luke</string>
+    <string name="glad">Glad to see you</string>
+    <string name="junk">Piece of junk</string>
+    <string name="neverturn">I\'ll never turn</string>
+    <string name="planet">Never coming back</string>
+    <string name="rebellion">The rebellion</string>
+    <string name="taste">Don\'t taste very good</string>
+
+    <!-- Han -->
+    <string name="amaze">I amaze myself</string>
+    <string name="badfeeling">A bad feeling</string>
+    <string name="captain">Captain of the Falcon</string>
+    <string name="didnthelp">Didn\'t help us very much</string>
+    <string name="falcon">Never heard of the Falcon</string>
+    <string name="flycasual">Fly casual</string>
+    <string name="howareyou">How are you?</string>
+    <string name="odds">Never tell me the odds</string>
+    <string name="point">Point that thing</string>
+    <string name="religions">Hoky religions</string>
+    <string name="situation">Situation normal</string>
+    <string name="thankme">Thank me at once</string>
+    <string name="upset">Upset a Wookiee</string>
+
+    <!-- Leia -->
+    <string name="carpet">Walking carpet</string>
+    <string name="doasitellyou">From now on</string>
+    <string name="dontknow">I don\'t know</string>
+    <string name="helpme">Help me</string>
+    <string name="laserbrain">Laser brain</string>
+    <string name="reward">Reward</string>
+    <string name="scruffy">Nerf-herder</string>
+    <string name="shortt">A little short</string>
+
+    <!-- Ben -->
+    <string name="always">The Force will be with you</string>
+    <string name="disturbance">A great disturbance</string>
+    <string name="dontbeafraid">Don\'t be afraid</string>
+    <string name="eyes">You eyes can deceive you</string>
+    <string name="feel">Do what is right</string>
+    <string name="foolish">Who\'s the more foolish</string>
+    <string name="forceluke">Use The Force, Luke</string>
+    <string name="luck">No such thing as luck</string>
+    <string name="nomoon">That\'s no moon</string>
+    <string name="seduced">Seduced by the Dark Side</string>
+
+    <!-- Vader -->
+    <string name="altering">I am altering the deal</string>
+    <string name="asyouwish">As you wish</string>
+    <string name="bidding">What is thy bidding</string>
+    <string name="destroyyou">Destroy you</string>
+    <string name="dontfail">Don\'t fail me again</string>
+    <string name="dontknoww">The power of the Dark Side</string>
+    <string name="expecting">Expecting you</string>
+    <string name="faith">Lack of faith</string>
+    <string name="father">I am your father</string>
+    <string name="giveyourself">Give yourself</string>
+    <string name="haveyounow">I have you now</string>
+    <string name="joinus">Join us</string>
+    <string name="leavethem">Leave them to me</string>
+    
+
+    <!-- R2-D2 -->
+    <string name="chatter">Random chatter</string>
+    <string name="eureka">Eureka</string>
+    <string name="excited">Excited</string>
+    <string name="laughing">Laughing</string>
+    <string name="panic">Panic</string>
+    <string name="playful">Playful</string>
+    <string name="sad">Sad</string>
+    <string name="sassy">Sassy</string>
+    <string name="shocked">Shocked</string>
+    <string name="snappy">Snappy</string>
+    <string name="surprised">Surprised</string>
+    <string name="unbelievable">Unbelievable</string>
+
+    <!-- C-3PO -->
+    <string name="against">Against my programming</string>
+    <string name="allsystems">All systems</string>
+    <string name="boring">Boring</string>
+    <string name="desolate">Desolate place</string>
+    <string name="hellosir">Hello sir</string>
+    <string name="language">Language</string>
+    <string name="madmen">Mad men</string>
+    <string name="regretthis">Regret this</string>
+    <string name="safe">Safe</string>
+    <string name="suffer">Made to suffer</string>
+    <string name="technical">Get technical</string>
+    <string name="terminated">Terminated</string>
+    <string name="whereareyou">Where are you</string>
+
+    <!-- Yoda -->
+    <string name="ninehundredyears">900 years old</string>
+    <string name="beware">Beware</string>
+    <string name="big">Get so big</string>
+    <string name="confront">Confront Vader</string>
+    <string name="difficult">Difficult to see</string>
+    <string name="harm">I mean you no harm</string>
+    <string name="hear">Hear you nothing</string>
+    <string name="help">Help you I can</string>
+    <string name="last">Last of the Jedi</string>
+    <string name="laugh">Laugh</string>
+    <string name="nonono">No No no</string>
+    <string name="seek">You seek Yoda</string>
+    <string name="strong">Strong am I</string>
+    <string name="tryy">Do, or do not</string>
+    <string name="underestimate">Underestimate</string>
+    <string name="wondering">Why are you here?</string>
+
+    <!-- Chewbacca -->
+    <string name="roar">Angry</string>
+    
+
+    <!-- Emperor -->
+    <string name="skills">Your skills</string>
+    <string name="anakin">Anakin</string>
+    <string name="become">Become</string>
+    <string name="doit">Do it</string>
+    <string name="forcestrong">Force is strong</string>
+    <string name="fulfilling">Fulfilling your destiny</string>
+    <string name="good">Good</string>
+    <string name="killhimnow">Kill him now</string>
+    <string name="senate">I am the Senate</string>
+    <string name="threatening">Are you threatening me</string>
+    <string name="youdidwell">You did well</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="apps101.cgmapps.starwarssoundboard"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.LukeActivity"
+            android:label="@string/luke" >
+        </activity>
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.HanActivity"
+            android:label="@string/han" >
+        </activity>
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.LeiaActivity"
+            android:label="@string/leia" >
+        </activity>
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.BenActivity"
+            android:label="@string/ben" >
+        </activity>
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.VaderActivity"
+            android:label="@string/vader" >
+        </activity>
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.R2Activity"
+            android:label="@string/r2" >
+        </activity>
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.C3POActivity"
+            android:label="@string/c3po" >
+        </activity>
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.YodaActivity"
+            android:label="@string/yoda" >
+        </activity>
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.ChewyActivity"
+            android:label="@string/chewy" >
+        </activity>
+        <activity
+            android:name="apps101.cgmapps.starwarssoundboard.EmperorActivity"
+            android:label="@string/emperor" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HanActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/amaze"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/amaze" />
+        
+        <Button
+            android:id="@+id/badfeeling"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/badfeeling" />
+        
+        <Button
+            android:id="@+id/captain"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/captain" />
+        
+        <Button
+            android:id="@+id/didnthelp"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/didnthelp" />
+        
+        <Button
+            android:id="@+id/falcon"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/falcon" />
+        
+        <Button
+            android:id="@+id/flycasual"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/flycasual" />
+        
+        <Button
+            android:id="@+id/howareyou"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/howareyou" />
+        
+        <Button
+            android:id="@+id/odds"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/odds" />
+        
+        <Button
+            android:id="@+id/point"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/point" />
+        
+        <Button
+            android:id="@+id/religions"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/religions" />
+        
+        <Button
+            android:id="@+id/situation"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/situation" />
+        
+        <Button
+            android:id="@+id/thankme"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/thankme" />
+        
+        <Button
+            android:id="@+id/upset"
+            style="@style/menuButton.quotes.han"
+            android:text="@string/upset" />
+        
+    </LinearLayout>
+
+</ScrollView>

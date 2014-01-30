@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MenuActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/luke"
+            style="@style/menuButton"
+            android:drawableLeft="@drawable/luke"
+            android:text="@string/luke"
+            android:onClick="go" />
+
+        <Button
+            android:id="@+id/han"
+            style="@style/menuButton"
+            android:drawableStart="@drawable/han"
+            android:text="@string/han"
+            android:onClick="go" />
+
+        <Button
+            android:id="@+id/leia"
+            style="@style/menuButton"
+            android:drawableStart="@drawable/leia"
+            android:text="@string/leia"
+            android:onClick="go" />
+
+        <Button
+            android:id="@+id/ben"
+            style="@style/menuButton"
+            android:drawableStart="@drawable/ben"
+            android:text="@string/ben"
+            android:onClick="go" />
+        
+        <Button
+            android:id="@+id/vader"
+            style="@style/menuButton"
+            android:drawableStart="@drawable/vader"
+            android:text="@string/vader"
+            android:onClick="go" />
+        
+        <Button
+            android:id="@+id/r2"
+            style="@style/menuButton"
+            android:drawableStart="@drawable/r2"
+            android:text="@string/r2"
+            android:onClick="go" />
+        
+        <Button
+            android:id="@+id/c3po"
+            style="@style/menuButton"
+            android:drawableStart="@drawable/c3p0"
+            android:text="@string/c3po"
+            android:onClick="go" />
+        
+        <Button
+            android:id="@+id/yoda"
+            style="@style/menuButton"
+            android:drawableStart="@drawable/yoda"
+            android:text="@string/yoda"
+            android:onClick="go" />
+        
+        <Button
+            android:id="@+id/chewy"
+            style="@style/menuButton"
+            android:drawableStart="@drawable/chewy"
+            android:text="@string/chewy"
+            android:onClick="go" />
+        
+        <Button
+            android:id="@+id/emperor"
+            style="@style/menuButton"
+            android:drawableStart="@drawable/emperor"
+            android:text="@string/emperor"
+            android:onClick="go" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".C3POActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/against"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/against" />
+
+        <Button
+            android:id="@+id/allsystems"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/allsystems" />
+
+        <Button
+            android:id="@+id/boring"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/boring" />
+
+        <Button
+            android:id="@+id/desolate"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/desolate" />
+
+        <Button
+            android:id="@+id/hellosir"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/hellosir" />
+
+        <Button
+            android:id="@+id/language"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/language" />
+
+        <Button
+            android:id="@+id/madmen"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/madmen" />
+
+        <Button
+            android:id="@+id/regretthis"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/regretthis" />
+
+        <Button
+            android:id="@+id/safe"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/safe" />
+
+        <Button
+            android:id="@+id/suffer"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/suffer" />
+
+        <Button
+            android:id="@+id/technical"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/technical" />
+
+        <Button
+            android:id="@+id/terminated"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/terminated" />
+
+        <Button
+            android:id="@+id/whereareyou"
+            style="@style/menuButton.quotes.c3po"
+            android:text="@string/whereareyou" />
+        
+    </LinearLayout>
+
+</ScrollView>
